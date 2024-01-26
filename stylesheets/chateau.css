@@ -17,6 +17,6 @@ main {
     color: Navy;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
-  header h1 {background-color: DodgerBlue;color: snow;}
+  h1 {background-color: DodgerBlue;color: snow;}
 }
 
