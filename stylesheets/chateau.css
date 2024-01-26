@@ -12,10 +12,11 @@ main {
 }
 
 @media screen and (min-width: 480px) {
-    body {
-      background-color: LightSkyBlue;
-      color: Navy;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    header h1 {background-color: DodgerBlue;color: snow;}
+  body {
+    background-color: LightSkyBlue;
+    color: Navy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
+  header h1 {background-color: DodgerBlue;color: snow;}
+}
+
