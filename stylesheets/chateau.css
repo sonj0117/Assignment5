@@ -1,3 +1,10 @@
+header {
+        background-image: url(/images/LogoSmall.png);
+        min-height: 50px;
+        background-position:right top; 
+        background-repeat: no-repeat;
+    }
+    
 body {
     background-color: DodgerBlue; 
     color: white;
@@ -11,12 +18,24 @@ main {
    
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (min-width: 480px) {
+  header {
+    background-image: url(/images/LogoLarge.png);
+    min-height: 100px;
+    background-color: dodgerblue;
+    color: snow;
+}
+
   body {
     background-color: LightSkyBlue;
     color: Navy;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
-  h1 {background-color: DodgerBlue;color: snow;}
+ 
 }
 

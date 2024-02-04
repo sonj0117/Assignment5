@@ -1,0 +1,46 @@
+header {
+  background-image: url(/images/LogoSmall.png);
+  min-height: 50px;
+  background-position:right top; 
+  background-repeat: no-repeat;
+}
+
+body {
+background-color: DodgerBlue; 
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+main {
+background-color: white;
+color: navy;
+
+}
+
+.responsive {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+dt.bold {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 480px) {
+header {
+background-image: url(/images/LogoLarge.png);
+min-height: 100px;
+background-color: dodgerblue;
+color: snow;
+}
+
+body {
+background-color: LightSkyBlue;
+color: Navy;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+}
+
