@@ -5,17 +5,62 @@ header {
   background-repeat: no-repeat;
 }
 
+#myHeader {
+  font-family:'Brush Script MT', cursive;
+  font-size: 4em;
+}
+
 body {
-background-color: DodgerBlue; 
-color: white;
+background-color: #F3E2E2; 
+color: #8B4513;
 font-family: Arial, Helvetica, sans-serif;
 
 }
 
 main {
-background-color: white;
-color: navy;
+background-color: #fef2f2;
+color:  #8B4513;
 
+}
+
+nav {
+  font-size:1.5em;
+}
+
+a:link {
+  color: #808000;
+}
+
+/* visited link */
+a:visited {
+  color:  #683B2B;
+}
+
+/* mouse over link */
+a:hover {
+  color:  #F48882;
+}
+
+figure{
+  width: 80px
+}
+.figure{
+  border-radius: 50%;
+}
+
+figcaption {
+font-weight: bold;
+text-align:center;
+}
+
+.trainers {
+  background-color: #FFFAFA;
+  border-radius: 10%;
+}
+
+.lists {
+  background-color: mistyrose
+  ;
 }
 
 .responsive {
@@ -32,14 +77,18 @@ dt.bold {
 header {
 background-image: url(/images/LogoLarge.png);
 min-height: 100px;
-background-color: dodgerblue;
-color: snow;
+background-color:  #DED1BD;
+color:  #683B2B;
 }
 
 body {
-background-color: LightSkyBlue;
-color: Navy;
+background-color: #faf6f2;
+color:  #8B4513;
 font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+figure{
+  width: 150px
 }
 
 }

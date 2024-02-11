@@ -6,34 +6,64 @@ header {
     }
     
 body {
-    background-color: DodgerBlue; 
-    color: white;
+    background-color: #E4C2C1; 
+    color: #b6666b;
     font-family: Arial, Helvetica, sans-serif;
     
 }
 
+.largeritalics {
+font-size: 1.2em;
+font-style: italic;
+}
+
+#myHeader {
+  font-family:'Brush Script MT', cursive;
+  font-size: 4em;
+}
+
 main {
-    background-color: white;
-    color: navy;
+    background-color: #fef2f2;
+    color: #8B4513;
    
 }
+
+nav {
+  font-size:1.5em;
+}
+
+a:link {
+  color:  #808000;
+}
+
+/* visited link */
+a:visited {
+  color: #683B2B;
+}
+
+/* mouse over link */
+a:hover {
+  color: #F48882;
+}
+
 
 .responsive {
   width: 100%;
   height: auto;
 }
 
+
 @media screen and (min-width: 480px) {
   header {
     background-image: url(/images/LogoLarge.png);
     min-height: 100px;
-    background-color: dodgerblue;
-    color: snow;
+    background-color: #DED1BD;
+    color: #683B2B;
 }
 
   body {
-    background-color: LightSkyBlue;
-    color: Navy;
+    background-color: #faf6f2;
+    color: #8B4513;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
  
