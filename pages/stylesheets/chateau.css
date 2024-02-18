@@ -23,8 +23,35 @@ color:  #8B4513;
 
 }
 
+
 nav {
-  font-size:1.5em;
+  width: 100%;
+  background-color: #f4f4f4; /* Background color */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  margin: 0 5px; /* Small space between links */
+  width: auto; /* Adjust width if needed */
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px; /* Adjust the size of the links */
+  text-decoration: none;
+  text-align: center; /* Center text */
+  color: #333; /* Text color */
+}
+
+nav ul li a:hover {
+  background-color: #ddd; /* Hover background color */
 }
 
 a:link {
@@ -56,11 +83,21 @@ text-align:center;
 .trainers {
   background-color: #FFFAFA;
   border-radius: 10%;
+  padding-left: 5%;
+  padding-top: 5%;
 }
 
 .lists {
-  background-color: mistyrose
-  ;
+  background-color: mistyrose;
+  padding: 5px
+}
+
+div dl dd{
+  padding: 5px
+}
+
+h2 {
+  text-align: center;
 }
 
 .responsive {
@@ -73,12 +110,43 @@ dt.bold {
   font-weight: bold;
 }
 
+aside {
+  padding: 10px; 
+  border-radius: 10px; /* Rounded corners */
+  border: 2px solid brown /* Border */
+}
+
+footer {
+  clear: both; /* Ensure footer clears any floated elements */
+  text-align: center; /* Center align text */
+  padding: 20px; /* Add padding for spacing */
+}
+
 @media screen and (min-width: 480px) {
+
 header {
 background-image: url(/images/LogoLarge.png);
 min-height: 100px;
 background-color:  #DED1BD;
 color:  #683B2B;
+}
+
+.row
+{
+  display: flex;
+}
+
+.column {
+  flex: 50%; /* Each column takes up 50% of the width */
+  padding: 10px; /* Add some padding */
+}
+
+.columnleft {
+  order: 0;
+}
+
+.columnright {
+  order: 1;
 }
 
 body {
@@ -89,6 +157,44 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 figure{
   width: 150px
+}
+
+aside {
+  padding: 20px; 
+}
+
+.lists {
+  padding:10px
+}
+
+div dl dd{
+  padding: 10px
+}
+
+nav {
+  width: 200px;
+  background-color: #f4f4f3; /* Background color */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+nav ul li {
+  margin-bottom: 10px; /* Vertical space between links */
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-align: center; /* Center text */
+  color: #333; /* Text color */
+}
+
+nav ul li a:hover {
+  background-color: #ddd; /* Hover background color */
 }
 
 }

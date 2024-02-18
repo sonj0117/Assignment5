@@ -4,7 +4,38 @@ header {
         background-position:right top; 
         background-repeat: no-repeat;
     }
-    
+
+  
+    nav {
+      width: 100%;
+      background-color: #f4f4f4; /* Background color */
+    }
+  
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: space-around;
+    }
+  
+    nav ul li {
+      margin: 0 5px; /* Small space between links */
+      width: auto; /* Adjust width if needed */
+    }
+  
+    nav ul li a {
+      display: block;
+      padding: 10px 20px; /* Adjust the size of the links */
+      text-decoration: none;
+      text-align: center; /* Center text */
+      color: #333; /* Text color */
+    }
+  
+    nav ul li a:hover {
+      background-color: #ddd; /* Hover background color */
+    }
+
 body {
     background-color: #E4C2C1; 
     color: #b6666b;
@@ -28,9 +59,8 @@ main {
    
 }
 
-nav {
-  font-size:1.5em;
-}
+
+
 
 a:link {
   color:  #808000;
@@ -66,6 +96,33 @@ a:hover {
     color: #8B4513;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
- 
+
+  nav {
+    width: 200px;
+    background-color: #f4f4f3; /* Background color */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+  }
+  
+  nav ul li {
+    margin-bottom: 10px; /* Vertical space between links */
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    text-align: center; /* Center text */
+    color: #333; /* Text color */
+  }
+  
+  nav ul li a:hover {
+    background-color: #ddd; /* Hover background color */
+  }
+  
+
 }
 
